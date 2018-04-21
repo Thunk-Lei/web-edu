@@ -2,10 +2,10 @@
 
 # EDU-WEB <small>1.0</small>
 
-* Simple and lightweight (~19kB gzipped)
-* No statically built html files
-* Multiple themes
+* 简单方便，秉承即用即走的设计理念
+* 遵循标准RESTful API设计风格
+* 全站HTTPS加密
 
 
-[GitHub](https://github.com/QingWei-Li/docsify/)
-[Get Started](#docsify)
+[GitHub](/)
+[快速启动](#docsify)
