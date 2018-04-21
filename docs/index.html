@@ -32,7 +32,33 @@
 <body>
   <div id="app">加载中...</div>
 
-  <script src="./index.js"></script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+    window.$docsify = {
+      name: 'Edu-Web',
+      repo: 'Thunk-Lei',
+      subMaxLevel: 4,
+      maxLevel: 4,
+      autoHeader: true,
+      // mergeNavbar: true,  //小屏幕合并导航栏到侧边栏
+      loadSidebar: 'sidebar.md', // 加载 _sidebar.md
+      loadNavbar: 'nav.md',
+      alias: {
+        '/.*/sidebar.md': '/sidebar.md',
+        '/.*/nav.md': '/nav.md'
+      },
+      search: {
+        placeholder: {
+          '/': '搜索...'
+        },
+        noData: {
+          '/': '暂时还没有找到你想要的结果喔！'
+        }
+      }
+    }
+  </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-json.js"></script>
