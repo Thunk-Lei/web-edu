@@ -1,5 +1,1 @@
-<center>
-
-# EDU - WEB
-
-</center>
+# EDU-WEB <small>1.0</small>
