@@ -2,13 +2,13 @@
 
 用户登录类接口主要包含 `验证码请求` 和 `用户登录` 两个接口
 
-> 验证码请求： `http://api.aizuoshe.com/code`
+> 验证码请求： `https://api.aizuoshe.com/code`
 
-> 用户登录： `http://api.aizuoshe.com/login`
+> 用户登录： `https://api.aizuoshe.com/login`
 
 ## 获取验证码
 
-> `GET` `http://api.aizuoshe.com/code`
+> `GET` `https://api.aizuoshe.com/code`
 
 > 请求方式： `GET` 　数据类型： `Object`
 
@@ -33,7 +33,7 @@
 
 ## 用户登录
 
-> `POST` `http://api.aizuoshe.com/login`
+> `POST` `https://api.aizuoshe.com/login`
 
 > 请求方式： `POST` 　数据类型： `Object`
 
@@ -56,7 +56,7 @@
 {
   "status": "200",
   "name": "张三",
-  "photo": "http://xxx.xxx.com/photo.jpg"
+  "photo": "https://xxx.xxx.com/photo.jpg"
 }
 ```
 
