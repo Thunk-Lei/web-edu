@@ -2,11 +2,11 @@
 
 成绩查询类接口主要包含 `成绩查询` 接口
 
-> 成绩查询： `https://api.aizuoshe.com/success`
+> 成绩查询： `https://api.aizuoshe.com/v1/success`
 
 ## 成绩查询
 
-> `POST` `https://api.aizuoshe.com/success`
+> `POST` `https://api.aizuoshe.com/v1/success`
 
 > 请求方式： `POST` 　数据类型： `Object`
 
