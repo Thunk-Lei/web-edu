@@ -28,38 +28,14 @@
 {
   "status": "200",
   {
-    "xq": "2014-2015学年第一学期",
-    {
-      "classname": "语文",
-      "credit": "3.0",
-      "nature": "通识必修",
-      "success": "125",
-      "notes": "补考"
-    },
-    {
-      "classname": "数学",
-      "credit": "4.5",
-      "nature": "通识必修",
-      "success": "137",
-      "notes": "重修"
-    }
+    "classname": "语文",  //课程名称
+    "credit": "3.0",     //学分
+    "nature": "通识必修",    //类别
+    "mode": "考试",   //考核方式
+    "xdxz": "初修",   //修读性质
+    "success": "125",   //成绩
+    "notes": "补考"   //备注
   },
-  {
-    "xq": "2014-2015学年第二学期",
-    {
-      "classname": "概率与数理统计",
-      "credit": "3.0",
-      "nature": "学科基础",
-      "success": "87",
-      "notes": ""
-    },
-    {
-      "classname": "口才艺术与社交礼仪",
-      "credit": "1.5",
-      "nature": "公共课/任选课",
-      "success": "95",
-      "notes": ""
-    }
     ......
   }
 }
