@@ -25,7 +25,7 @@
 
 ```json
 {
-  "status": "200",
+  "status": 200,
   "data":[
     {
     "classname": "语文",  //课程名称
