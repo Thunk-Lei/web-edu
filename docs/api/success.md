@@ -14,10 +14,7 @@
 
 ```json
 {
-  "SJ": "0", //0、1 原始成绩 or 有效成绩
-  "SelXNXQ": "0", //0、1、2 入学以来 or 学年 or 学期
-  "zfx_flag": "0", //0、1 主修 or 辅修
-  "zxf": "0" //定值
+  "cookie": "ASP.NET_SessionId=xfr1sv45rgtfng55c4noewf4"
 }
 ```
 
